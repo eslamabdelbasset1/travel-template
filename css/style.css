@@ -1,0 +1,155 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background: #E2CCCC;
+}
+.navbar .navbar-brand
+{
+    font-size: 1.5rem;
+}
+.navbar .nav-item a{
+    margin: 1rem;
+}
+.navbar .nav-item a.signUp{
+    padding: 10px 20px;
+    border: 1px solid #565e64;
+}
+header .home-caption
+{
+    width: 80%;
+
+}
+.image-icons
+{
+    background-image: url("../images/Group5.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+}
+.home-caption .caption-header
+{
+    color: #DF6951;
+    font-weight: bold;
+}
+.home-caption .caption-icons
+{
+    margin-top: 20px;
+}
+.home-caption .caption-icons .btn
+{
+    background: #F1A501 !important;
+    color: #fff;
+}
+.home-caption .caption-icons i{
+    padding: 10px;
+    border: 1px solid #DF6951;
+    background: #DF6951;
+    border-radius: 50%;
+}
+.home-caption h1
+{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/*------------------ Start category ------------*/
+.category
+{
+    margin-top: 7rem;
+}
+.category .category-title
+{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.category img
+{
+    width: 15%;
+    margin: auto;
+}
+.category h2
+{
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+.category .card
+{
+    padding: 3rem 1.25rem;
+    position: relative;
+    background-color: #fff;
+    z-index: 2;
+    border-color: transparent !important;
+}
+.category .shadow
+{
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 10%;
+}
+.category .card-body h2
+{
+    font-size: 1rem;
+}
+.category .card .fas,
+.category .card .far
+{
+    width: 25%;
+    font-size: 2rem;
+    margin: auto;
+    text-align: center;
+    border-radius: 50%;
+    color: #A89DA6;
+}
+/*------------------ End category ------------*/
+
+
+/*------------------ Start selling ------------*/
+.selling
+{
+    margin-top: 7rem;
+    padding: 3rem;
+
+}
+.selling .selling-title
+{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.selling img
+{
+    width: 100%;
+    margin: auto;
+}
+.selling h2
+{
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+.selling .travel
+{
+    padding: 1rem;
+    position: relative;
+    background-color: #fff;
+    border-color: transparent !important;
+    box-shadow: 2px 2px 2px 2px #f9fafb;
+}
+.selling .card-body h2
+{
+    font-size: 1rem;
+}
+.selling .card .fas,
+.selling .card .far
+{
+    width: 25%;
+    font-size: 2rem;
+    margin: auto;
+    text-align: center;
+    border-radius: 50%;
+    color: #A89DA6;
+}
+/*------------------ End category ------------*/
